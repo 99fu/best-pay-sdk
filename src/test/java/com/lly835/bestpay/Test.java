@@ -34,10 +34,10 @@ public class Test {
         request.setOrderAmount(0.01);
         request.setOrderName("支付宝订单");
         request.setPayTypeEnum(BestPayTypeEnum.ALIPAY_WAP);
-
+/*
         BestPayServiceImpl bestPayService = new BestPayServiceImpl(alipayConfig);
         PayResponse response = bestPayService.pay(request);
-        System.out.println(response);
+        System.out.println(response);*/
     }
 
 }
